@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.authk.biometric'
+    namespace 'com.mozhimen.authk.firebase'
     compileSdk 34
 
     defaultConfig {
@@ -31,8 +31,8 @@ android {
 }
 
 dependencies {
-    api project(':SwiftKit:basick')
-    api project(':ALibKit_Jetpack:biometric_ktx')
+    implementation project(':SwiftKit:basick')
+    implementation project(':ALibKit_Google:firebase_auth')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
