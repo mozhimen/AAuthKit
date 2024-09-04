@@ -37,3 +37,8 @@ project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit
 include ':ALibKit_Google:firebase_auth'
 include ':ALibKit_Google:firebase_basic'
 include ':ALibKit_Google:android_gms_play_services_auth'
+//KUtilKit
+include ':KUtilKit'
+project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
+include ':KUtilKit:utilk_android'
+include ':KUtilKit:utilk_kotlin'
