@@ -3,7 +3,7 @@ package com.mozhimen.authk.firebase
 import android.app.PendingIntent
 import android.content.Intent
 import android.content.IntentSender
-import com.mozhimen.basick.utilk.android.util.UtilKLogWrapper
+import com.mozhimen.kotlin.utilk.android.util.UtilKLogWrapper
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.ComponentActivity
@@ -19,11 +19,11 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.mozhimen.basick.elemk.androidx.lifecycle.bases.BaseWakeBefDestroyLifecycleObserver
-import com.mozhimen.basick.elemk.commons.IA_Listener
-import com.mozhimen.basick.lintk.optins.OApiCall_BindLifecycle
-import com.mozhimen.basick.lintk.optins.OApiCall_BindViewLifecycle
-import com.mozhimen.basick.lintk.optins.OApiInit_ByLazy
+import com.mozhimen.basick.bases.BaseWakeBefDestroyLifecycleObserver
+import com.mozhimen.kotlin.elemk.commons.IA_Listener
+import com.mozhimen.kotlin.lintk.optins.OApiCall_BindLifecycle
+import com.mozhimen.kotlin.lintk.optins.OApiCall_BindViewLifecycle
+import com.mozhimen.kotlin.lintk.optins.OApiInit_ByLazy
 import com.mozhimen.libk.google.firebase.basic.optins.OApiInit_InApplication_FirebaseBasicMgr
 
 /**
