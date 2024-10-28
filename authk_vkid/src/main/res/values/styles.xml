@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleK_OneTapBottomSheet">
+        <item name="vkid_autoHideOnSuccess">false</item>
+        <item name="vkid_bottomSheetScenario">OrderInService</item>
+<!--        <item name="vkid_bottomSheetServiceName">Sample xml</item>-->
+        <item name="vkid_bottomSheetStyle">system</item>
+<!--        <item name="vkid_onetapOAuths">mail,ok</item>-->
+    </style>
+</resources>

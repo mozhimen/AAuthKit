@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.authk.vk'
+    namespace 'com.mozhimen.authk.vkid'
     compileSdk 34
 
     defaultConfig {
@@ -27,9 +27,16 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
 
 dependencies {
+    implementation project(':SwiftKit:basick')
+    api project(':AAuthKit_vkid:onetap-xml')
+    api project(':AAuthKit_vkid:vkid_basic')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

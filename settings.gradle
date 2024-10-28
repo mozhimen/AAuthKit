@@ -23,23 +23,57 @@ rootProject.name = "AAuthKit"
 include ':app'
 include ':authk_biometric'
 include ':authk_firebase'
+include ':authk_vkid'
 //SwiftKit
 include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
 include ':SwiftKit:basick'
+include ':SwiftKit:composek'
+//ALibKit_Squareup
+include ':ALibKit_Squareup'
+project(':ALibKit_Squareup').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Squareup")
+include ':ALibKit_Squareup:okhttp3'
+include ':ALibKit_Squareup:okhttp3_logging_interceptor'
 //ALibKit_Jetpack
 include ':ALibKit_Jetpack'
 project(':ALibKit_Jetpack').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetpack")
 include ':ALibKit_Jetpack:biometric_ktx'
+include ':ALibKit_Jetpack:preference'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
 include ':ALibKit_Google:firebase_auth'
 include ':ALibKit_Google:firebase_basic'
 include ':ALibKit_Google:android_gms_play_services_auth'
+include ':ALibKit_Google:gson'
 //KUtilKit
 include ':KUtilKit'
 project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
 include ':KUtilKit:utilk_android'
 include ':KUtilKit:utilk_kotlin'
-include ':authk_vk'
+//AAuthKit_vkid
+include ':AAuthKit_vkid'
+project(':AAuthKit_vkid').projectDir = new File("D:\\WorkSpace\\GitHub\\AAuthKit_vkid")
+include ':AAuthKit_vkid:onetap-xml'
+include ':AAuthKit_vkid:onetap-compose'
+include ':AAuthKit_vkid:vkid_basic'
+include ':AAuthKit_vkid:vkid_common'
+include ':AAuthKit_vkid:onetap-common'
+include ':AAuthKit_vkid:multibranding-common'
+include ':AAuthKit_vkid:multibranding-compose'
+//AImageKit
+include ':AImageKit'
+project(':AImageKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AImageKit")
+include ':AImageKit:imagek_coil2_compose'
+//ASerialKit
+include ':ASerialKit'
+project(':ASerialKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASerialKit")
+include ':ASerialKit:serialk_gson'
+//AAdaptKit
+include ':AAdaptKit'
+project(':AAdaptKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAdaptKit")
+include ':AAdaptKit:adaptk_preference'
+//AWebKit
+include ':AWebKit'
+project(':AWebKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AWebKit")
+include ':AWebKit:webk_browser'
