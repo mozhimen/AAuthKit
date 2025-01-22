@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.authk.vkid'
+    namespace 'com.mozhimen.authk.firebase'
     compileSdk 34
 
     defaultConfig {
-        minSdk 21
+        minSdk 19
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 //        consumerProguardFiles "consumer-rules.pro"
@@ -21,22 +22,17 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '11'
-    }
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
+        jvmTarget = '1.8'
     }
 }
 
 dependencies {
     implementation project(':ASwiftKit:basick')
-    api project(':AAuthKit_vkid:onetap-xml')
-    api project(':AAuthKit_vkid:vkid_basic')
+    api project(':ALibKit_Google:firebase:firebase_auth')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
