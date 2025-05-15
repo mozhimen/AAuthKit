@@ -37,7 +37,7 @@ import com.mozhimen.libk.google.firebase.basic.optins.OApiInit_InApplication_Fir
 @OApiCall_BindViewLifecycle
 @OApiCall_BindLifecycle
 @OApiInit_InApplication_FirebaseBasicMgr
-class AuthKFirebaseProxy(private var _componentActivity: ComponentActivity?, private val _serverClientId: String) : BaseWakeBefDestroyLifecycleObserver() {
+class AuthKFirebaseProxy constructor(private var _componentActivity: ComponentActivity?, private val _serverClientId: String) : BaseWakeBefDestroyLifecycleObserver() {
     private lateinit var _auth: FirebaseAuth
     private lateinit var _signInClient: SignInClient
     private var _onUpdateUI: IA_Listener<FirebaseUser?>? = null
