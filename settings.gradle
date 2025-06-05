@@ -20,10 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AAuthKit"
-include ':app'
-include ':biometric'
-include ':firebase'
-include ':vkid'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
@@ -88,3 +84,8 @@ include ':AWebKit'
 project(':AWebKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AWebKit")
 include ':AWebKit:browser'
 include ':AWebKit:basic'
+//
+include ':app'
+include ':biometric'
+include ':google'
+include ':vkid'

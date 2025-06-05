@@ -4,8 +4,8 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.authk.firebase'
-    compileSdk 34
+    namespace 'com.mozhimen.authk.google'
+    compileSdk 35
 
     defaultConfig {
         minSdk 19
