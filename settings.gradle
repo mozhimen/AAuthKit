@@ -74,7 +74,7 @@ include ':AImageKit:coil2:compose'
 //ASerialKit
 include ':ASerialKit'
 project(':ASerialKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASerialKit")
-include ':ASerialKit:gson'
+include ':ASerialKit:json:gson'
 //AAdaptKit
 include ':AAdaptKit'
 project(':AAdaptKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AAdaptKit")
