@@ -1,4 +1,4 @@
-package com.mozhimen.authk.firebase
+package com.mozhimen.authk.google
 
 import android.app.PendingIntent
 import android.content.Intent
